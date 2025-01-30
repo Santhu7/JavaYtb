@@ -5,5 +5,6 @@ public class ScientificCal extends AdvanceCaluculator{
 	public int powerOfTwoNums(int n1, int n2) {
 		return (int)Math.pow(n1, n2);
 	}
+	//sy
 
 }
