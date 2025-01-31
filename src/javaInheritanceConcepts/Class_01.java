@@ -1,8 +1,12 @@
 package javaInheritanceConcepts;
-
+import firstPackage.Class_03;
 class greet{
 	
 }
+
+//In Java Multiple Inheritance will not work
+// A<--B<--C  == A is parent of B, B is parent of C this will work
+//A<--B, C<--B === If both A and C are parents of B, then this won't work in Java, since if we have same methods in both A and C, then if we try calling from B object, then Java will get confused to which parent it has to go, hence Multiple Inheritance will not work in Java
 
 public class Class_01 {
 	public static void main(String[] args) {
@@ -15,5 +19,4 @@ public class Class_01 {
 		r5 = ad1.powerOfTwoNums(2, 3);
 		System.out.println(r1 + " "+r2+" "+r3+" "+r4+" "+r5);
 	}
-
 }
